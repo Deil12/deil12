@@ -1,11 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T01:55:13.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="27dO1F8lesWbqM5Skz5s" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T02:42:46.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="I1WFZKSCMbXcCDDSVYys" version="16.6.4" type="github">
   <diagram id="hwtpZEjUsNHa2ngVuJY2" name="第 1 页">
-    <mxGraphModel dx="600" dy="1407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1264" dy="1159" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="agloTx-GLdffFIi8woiB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="agloTx-GLdffFIi8woiB-1" target="agloTx-GLdffFIi8woiB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="agloTx-GLdffFIi8woiB-1" target="agloTx-GLdffFIi8woiB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="agloTx-GLdffFIi8woiB-1" target="agloTx-GLdffFIi8woiB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="agloTx-GLdffFIi8woiB-1" target="agloTx-GLdffFIi8woiB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="agloTx-GLdffFIi8woiB-1" target="agloTx-GLdffFIi8woiB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="agloTx-GLdffFIi8woiB-1" value="MNFT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="480" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-2" value="data-service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-4" value="mnft-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-6" value="mnft-common" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-9" value="mnft-mq" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="agloTx-GLdffFIi8woiB-1" target="agloTx-GLdffFIi8woiB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-11" value="mnft-persistence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="820" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="agloTx-GLdffFIi8woiB-1" target="agloTx-GLdffFIi8woiB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-13" value="mnft-service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="990" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agloTx-GLdffFIi8woiB-15" value="vx-service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
