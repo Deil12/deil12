@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T08:21:18.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="B0q5pQ6WhXW4e9StfSSr" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T10:24:45.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="9r4B3MYJktbeWbYX7unH" version="16.6.4" type="github">
   <diagram id="hwtpZEjUsNHa2ngVuJY2" name="第 1 页">
-    <mxGraphModel dx="935" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="935" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,12 @@
           <mxGeometry x="440" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agloTx-GLdffFIi8woiB-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="agloTx-GLdffFIi8woiB-26" target="agloTx-GLdffFIi8woiB-28">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="1450" />
+              <mxPoint x="500" y="1450" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="agloTx-GLdffFIi8woiB-26" value="确认" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1240" width="120" height="60" as="geometry" />
@@ -103,7 +108,7 @@
           <mxGeometry x="520" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agloTx-GLdffFIi8woiB-33" value="提示：“历史头像将失效”&lt;br&gt;锁定nft_id, url (is_lock)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=#FF0000;position2=1;base=34;size=30;position=0.64;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1180" width="150" height="80" as="geometry" />
+          <mxGeometry x="200" y="1220" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="agloTx-GLdffFIi8woiB-36" value="`nft_kind_avatar`" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="790" width="500" height="160" as="geometry" />
