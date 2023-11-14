@@ -1,0 +1,36 @@
+# For the `icon`, see SVG.toml
+
+[[socials]]
+    id = "rss"
+    url = "/rss.xml"
+    icon = "rss"
+    title = "RSS"
+    weight = 1
+
+[[socials]]
+    id = "email"
+    url = "mailto:deil12@yeah.net"
+    icon = "envelope"
+    title = "Email"
+    weight = 2
+
+[[socials]]
+    id = "github"
+    url = "https://github.com/Deil12"
+    icon = "github"
+    title = "GitHub"
+    weight = 3
+
+[[socials]]
+    id = "wechat"
+    url = "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2Njg2MDYzNg==&action=getalbum&album_id=3187452997044338699&scene=173&from_msgid=2247483663&from_itemidx=1&count=3&nolastread=1#wechat_redirect"
+    icon = "wechat"
+    title = "WeChat"
+    weight = 4
+
+[[socials]]
+    id = "telegram"
+    url = "https://t.me/deil12"
+    icon = "telegram"
+    title = "Telegram"
+    weight = 5
