@@ -316,11 +316,11 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["山外青山楼外楼"]
+    homePoetry = ["*山外青山楼外楼*"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -1290,9 +1290,9 @@ uglyURLs = false
     customFooter = ""
 
     displayBusuanziSiteUVAndPV = true
-    busuanziSiteUVText = "访客"
+    busuanziSiteUVText = ""
     busuanziSiteUVIcon = "user"
-    busuanziSitePVText = "访问"
+    busuanziSitePVText = ""
     busuanziSitePVIcon = "eye"
     # 说明：仅在生产环境（production）下渲染
     #      文本或图标，留空（""）则无
@@ -1494,26 +1494,6 @@ uglyURLs = false
     [[languages.en.menu.main]]
         weight = 3
         identifier = "lang-switcher"
-    [[languages.en.menu.socials]]
-        url = "https://github.com/guanqr"
-        name = "GitHub"
-        weight = 1
-        pre = "external"
-    [[languages.en.menu.socials]]
-        url = "https://www.cc98.org/user/id/583696"
-        name = "CC98"
-        weight = 2
-        pre = "external"
-    [[languages.en.menu.links]]
-        url = "https://www.instagram.com/guanqr/"
-        name = "Instagram"
-        weight = 1
-        pre = "external"
-    [[languages.en.menu.links]]
-        url = "/en/atom.xml"
-        name = "Feed"
-        weight = 2
-        pre = "external"
 [languages.en.params]
     siteDescription = "Deil's Blog in English."
     listDateFormat = "January 2"
@@ -1531,5 +1511,5 @@ uglyURLs = false
     homeLayout = "poetry"
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["*To see a world in a grain of sand*","*And a heaven in a wild flower*","*Hold infinity in the palm of your hand*","*And eternity in an hour*"]
+    homePoetry = ["</br>*You hardly can imagine*","*What you never had before*","*And the reason that you`re given*","*Still leaves you wanting more*"]
     navHeight = "6em"

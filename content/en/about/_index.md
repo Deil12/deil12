@@ -1,8 +1,8 @@
 +++
-title = "About"
+title = "Hey There "
 description = ""
-date = "2023-11-14T16:38:23+08:00"
-lastmod = "2023-11-14T16:38:23+08:00"
+date = "2023-11-14T17:07:40+08:00"
+lastmod = "2023-11-14T17:07:40+08:00"
 tags = [""]
 dropCap = false
 displayCopyright = false
@@ -10,4 +10,4 @@ gitinfo = false
 toc = false
 +++
 
-Hey there
+It`s about someone who tried to notice the world...

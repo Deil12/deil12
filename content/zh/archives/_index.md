@@ -1,5 +1,5 @@
 +++
-title = "Archives"
+title = "存档"
 description = ""
 date = "2023-11-14T17:06:12+08:00"
 lastmod = "2023-11-14T17:06:12+08:00"
