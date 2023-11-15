@@ -2,11 +2,10 @@
     <div class="poetry">
         <div>
             <iframe src="https://search.chongbuluo.com/pacman/pacman.html"
-                    style="margin: auto; border-radius: 12px; transform-origin: left top; transform: scale(0.86, 0.9);"
+                    style="margin: auto; border-radius: 12px; transform-origin: left top; transform: scale(0.8, 0.9);"
                     frameborder="0" height="208px" width="484px" scrolling="no" webkitallowfullscreen="true"
                     mozallowfullscreen="true" allowfullscreen></iframe>
         </div>
-        <hr style="height:5px;border:none;background: linear-gradient(135deg,#000,#00f,#0f0,#8f0,#ff0,#f80,#f00,#000);"/>
         {{ range .Site.Params.homePoetry }}
             <p>{{ partial "utils/markdownify.html" (dict "$" $ "raw" . "isContent" false) }}</p>
         {{ end }}
