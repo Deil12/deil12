@@ -966,9 +966,9 @@ uglyURLs = false
     #      SVG，则可留空（""）品牌栏字体。
 
     # 品牌栏
-    fontFamilySiteBrand = ""
+    fontFamilySiteBrand = "Amstelvar"
     # 菜单栏
-    fontFamilyMenu = ""
+    fontFamilyMenu = "Amstelvar"
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题
     fontFamilyTitle = "'Amstelvar', 'Noto Serif SC', serif"
     # 分节标题、目录标题
@@ -1471,7 +1471,7 @@ uglyURLs = false
     weight = 2
     languageCode = "en-US"
     hasCJKLanguage = false
-	title = "Deil's Blog"
+	title = "Deil"
     copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 [languages.en.taxonomies]
     #category = "categories"
