@@ -1511,5 +1511,5 @@ uglyURLs = false
     homeLayout = "poetry"
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["</br>*You hardly can imagine*","*What you never had before*","*And the reason that you`re given*","*Still leaves you wanting more*"]
+    homePoetry = ["*You hardly can imagine*","*What you never had before*","*And the reason that you`re given*","*Still leaves you wanting more*"]
     navHeight = "6em"
