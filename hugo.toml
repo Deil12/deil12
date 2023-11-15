@@ -104,7 +104,7 @@ uglyURLs = false
     # 座右铭或简介
     motto = "Vagrant"
     # 头像
-    avatar = "/icons/apple-touch-icon.png"
+    avatar = "/icons/deil.png"
     # 网站（默认值：baseURL）
     website = "https://deil12.github.io/"
     # 推特
