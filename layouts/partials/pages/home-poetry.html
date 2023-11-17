@@ -6,10 +6,10 @@
                     frameborder="0" scrolling="no" webkitallowfullscreen="true"
                     mozallowfullscreen="true" ></iframe>
         </div>
-        <iframe src="https://search.chongbuluo.com/pacman/pacman.html"
+        <!-- <iframe src="https://search.chongbuluo.com/pacman/pacman.html"
                 style="margin: auto; border-radius: 12px; height: 100%; width: 100%; transform-origin: 0 0; transform: scale(0.840);"
                 frameborder="0" scrolling="no" webkitallowfullscreen="true"
-                mozallowfullscreen="true" ></iframe>
+                mozallowfullscreen="true" ></iframe> -->
         {{ range .Site.Params.homePoetry }}
             <p>{{ partial "utils/markdownify.html" (dict "$" $ "raw" . "isContent" false) }}</p>
         {{ end }}
