@@ -1,27 +1,15 @@
 <main class="home">
     <div class="poetry">
-        <!-- <div>
-            <iframe src="https://search.chongbuluo.com/pacman/pacman.html"
-                    style="margin: auto; border-radius: 12px;"
-                    frameborder="0" height="208px" width="484px" scrolling="no" webkitallowfullscreen="true"
-                    mozallowfullscreen="true" allowfullscreen></iframe>
-        </div> -->
-        <!-- <div style="position: relative; height: 100%; width: 100%; padding-top: calc(100% * 208 / 483);">
-            <iframe src="https://search.chongbuluo.com/pacman/pacman.html"
-                    style="margin: auto; border-radius: 12px; position: absolute; height: 100%; width: 100%; top: 0; left: 0;"
-                    frameborder="0" scrolling="no" webkitallowfullscreen="true"
-                    mozallowfullscreen="true" ></iframe>
-        </div> -->
         <div style="position: relative; height: 100%; width: 100%; padding-top: calc(100% * 208 / 483);">
             <iframe src="https://search.chongbuluo.com/pacman/pacman.html"
-                    style="margin: auto; border-radius: 12px; position: absolute; height: 208px; width: 483px; top: 0; left: 0; transform-origin: 0 0; transform: scale(0.86);"
+                    style="margin: auto; border-radius: 12px; position: absolute; height: 100%; width: 100%; top: 0; left: 0; transform-origin: 0 0; transform: scale(0.84);"
                     frameborder="0" scrolling="no" webkitallowfullscreen="true"
                     mozallowfullscreen="true" ></iframe>
         </div>
-        <!-- <iframe src="https://search.chongbuluo.com/pacman/pacman.html"
-                style="margin: auto; border-radius: 12px; height: 208px; width: 484px; transform-origin: 0 0; transform: scale(0.840);"
+        <iframe src="https://search.chongbuluo.com/pacman/pacman.html"
+                style="margin: auto; border-radius: 12px; height: 100%; width: 100%; transform-origin: 0 0; transform: scale(0.840);"
                 frameborder="0" scrolling="no" webkitallowfullscreen="true"
-                mozallowfullscreen="true" ></iframe> -->
+                mozallowfullscreen="true" ></iframe>
         {{ range .Site.Params.homePoetry }}
             <p>{{ partial "utils/markdownify.html" (dict "$" $ "raw" . "isContent" false) }}</p>
         {{ end }}
