@@ -1,5 +1,5 @@
 +++
-title = "Hey There "
+title = "Hey There"
 description = ""
 date = "2023-11-14T17:07:40+08:00"
 lastmod = "2023-11-14T17:07:40+08:00"

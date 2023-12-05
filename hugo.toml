@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://deil12.github.io/"
-title = "江湖有雾"
+#title = "江湖有雾"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -115,9 +115,9 @@ uglyURLs = false
     threshold = 80
     includeNewer = true
     toLower = true
-    [[related.indices]]
-        name = "categories"
-        weight = 100
+    #[[related.indices]]
+    #    name = "categories"
+    #    weight = 100
     [[related.indices]]
         name = "tags"
         weight = 95
@@ -191,51 +191,66 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
+    #[[menu.main]]
+    #    url = "https://deil12.gitee.io/"
+    #    name = "导航"
+    #    weight = 10
+    #    post = "navi"
+    [[menu.main]]
+        pageref = "/essay/"
+        name = "随笔"
+        weight = 11
+        pre = "internal"
+        post = "edit"
+    [[menu.main]]
+        pageref = "/exhibition/"
+        name = "照片墙"
+        weight = 12
+        pre = "internal"
+        post = "exhibition"
+
     # [[menu.main]]
     #     pageref = "/"
     #     name = "首页"
-    #     weight = 1
+    #     weight = 20
     #     pre = "external"
     #     post = "home"
     [[menu.main]]
-        url = "https://deil12.gitee.io/"
-        name = "导航"
-        weight = 1
-        post = "navi"
-    [[menu.main]]
         pageref = "/posts/"
-        name = "文章"
-        weight = 2
+        name = "归档"
+        weight = 20
         pre = "internal"
-        post = "archive"
+        post = "paper"
     [[menu.main]]
         pageref = "/categories/"
         name = "分类"
-        weight = 3
+        weight = 21
         pre = "internal"
         post = "th"
+
     [[menu.main]]
         pageref = "/tags/"
         name = "标签"
-        weight = 4
+        weight = 30
         pre = "internal"
         post = "tags"
     [[menu.main]]
         pageref = "/about/"
         name = "关于"
-        weight = 5
+        weight = 31
         pre = "internal"
         post = "user-circle"
+
     [[menu.main]]
-        weight = 6
+        weight = 40
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 7
+        weight = 41
         identifier = "lang-switcher"
-    #[[menu.main]]
-    #    weight = 8
-    #    identifier = "search"
-    #    post = "search"
+    [[menu.main]]
+        weight = 42
+        identifier = "search"
+        post = "search"
 
 
 
@@ -473,7 +488,7 @@ uglyURLs = false
     # 说明：分区的名字即站点的 content 目录下
     #      的文件夹的名字。
 
-    # mainSections = ["posts"]
+    mainSections = ["life","tech"]
 
 
     ######################################
@@ -1477,25 +1492,31 @@ uglyURLs = false
     #category = "categories"
     #tag = "tags"
 [languages.en.menu]
-    #[[languages.en.menu.main]]
-    #    weight = 1
-    #    identifier = "search"
-    #    post = "search"
+    [[languages.en.menu.main]]
+        url = "/en/essay/"
+        name = "Essay"
+        weight = 1
+        pre = "internal"
+        post = "edit"
     [[languages.en.menu.main]]
         url = "/en/about/"
         name = "About"
-        weight = 1
+        weight = 2
         pre = "internal"
         post = "user-circle"
         identifier = "about"
     [[languages.en.menu.main]]
-        weight = 2
+        weight = 3
         identifier = "theme-switcher"
     [[languages.en.menu.main]]
-        weight = 3
+        weight = 4
         identifier = "lang-switcher"
+    #[[languages.en.menu.main]]
+    #    weight = 5
+    #    identifier = "search"
+    #    post = "search"
 [languages.en.params]
-    siteDescription = "Deil's Blog in English."
+    siteDescription = "Deil's Blog"
     listDateFormat = "January 2"
     fontFamilyTitle = "'Amstelvar', serif"
     fontFamilyHeadings = "'Amstelvar', serif"

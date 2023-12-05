@@ -1,0 +1,22 @@
+{
+  "sqltools.connections": [
+    {
+      "mssqlOptions": {
+        "appName": "SQLTools",
+        "useUTC": true,
+        "encrypt": false
+      },
+      "previewLimit": 50,
+      "server": "10.79.10.45",
+      "port": 1433,
+      "driver": "MSSQL",
+      "name": "唐翼mssql",
+      "username": "cargotest2",
+      "password": "df2@Se1Aq35",
+      "database": "TcmsForTest"
+    }
+  ],
+  "workbench.editor.pinnedTabSizing": "normal",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.pinnedTabsOnSeparateRow": false
+}
